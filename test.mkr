@@ -1,0 +1,23 @@
+# These are
+## the types
+### of /headers/
+
+## Inlines:
+*bold test* /italic test/ \
+/italic test/\
+*bold test*\
+/*italic bold test*/\
+*/bold italic test/*\
+*bold/italic/bold*\
+-/strike*though/ text*!-\
+_underlined text_\
+\*cancelled bold\*\
+\/cancelled italics\/
+\
+
+
+/\ that's an empty line
+more tests for newlines
+1
+2
+3
