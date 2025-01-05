@@ -1,0 +1,59 @@
+#1 Marker
+this is a really basic example of marker \
+and how it can be used to create a simple document
+
+#2 Usage
+Marker takes heavy inspiration from markdown, but tries to do everything slightly differently because why not? \
+(also because i think it's nicer to write, but that's probably just me)
+
+#3 Inline //"Tags"//
+Inline tags are used to format the text in a line. (crazy concept, right?)
+
+The following tags are available:
+**bold**: \**bold\**
+//italic//: \//italic\//
+__underline__: \__underline\__
+--strikethrough--: \--strikethrough\--
+^^inline code^^: \^^inline code\^^
+''superscript'': \''superscript\''
+,,subscript,,: \,,subscript\,,
+
+#3 Header //"Tags"//
+Headers are slightly different from markdown, they start with a # but then continue with a number and a space. \
+This number is the level of the header and it can be from 1 to 6.
+These are the available headers:
+#1 l1 header
+#2 l2 header
+#3 l3 header
+#4 l4 header
+#5 l5 header
+#6 l6 header
+
+#3 Additional features
+The "\" character can be used to escape any of the formatting tags, even a new line, so \
+you \
+can \
+split \
+your \
+text \
+in \
+multiple \
+lines \
+without \
+affecting \
+the \
+output.
+
+If a line contains only "###" a separator line will be added. (it's just a horizontal line)
+like this:
+###
+It can be useful for headers, since unlike markdown, all headers don't have a horizontal line below them.
+
+Example of a l1 header with and without separator:
+
+with:
+#1 l1 header
+###
+
+without:
+#1 l1 header
